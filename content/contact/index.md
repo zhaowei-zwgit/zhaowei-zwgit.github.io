@@ -20,8 +20,8 @@ sections:
         country: 中国
         country_code: China
       coordinates:
-        latitude: '34.2658'
-        longitude: '108.9541'
+        latitude: '23.1291'
+        longitude: '113.2644'
       directions: ''
       office_hours:
         - '请提前邮件预约'
