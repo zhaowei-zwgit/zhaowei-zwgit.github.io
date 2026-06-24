@@ -9,6 +9,22 @@
 }
 
 
+/* --- 联系页图标间距统一 --- */
+.wg-contact .fa-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.wg-contact li {
+  padding-top: 0.6rem !important;
+  margin-bottom: 0.6rem !important;
+  line-height: 1.8;
+}
+
+.wg-contact li:last-of-type {
+  margin-bottom: 0 !important;
+}
+
 /* --- 修改首页内容宽度 --- */
 
 /* 仅在电脑大屏幕上生效 (宽度大于 1200px 的设备) */
