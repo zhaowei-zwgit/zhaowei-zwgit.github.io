@@ -13,18 +13,17 @@ sections:
       email: zhaowei.wzwork@gmail.com
 #      phone: ''
       address:
-        street: ''
-        city: ''
-        region: ''
-        postcode: ''
+        street: '黄埔大道西601号'
+        city: '广州'
+        region: '天河区'
+        postcode: '510632'
         country: 中国
-        country_code: China
+        country_code: CN
       coordinates:
         latitude: '23.1291'
         longitude: '113.2644'
       directions: ''
-      office_hours:
-        - '请提前邮件预约'
+      office_hours: []
       appointment_url: ''
       contact_links:
         - icon: github
