@@ -1,0 +1,35 @@
+/* 隐藏出版物页面的筛选及搜索栏 */
+.pub-filters {
+  display: none !important;
+}
+
+/* 备用方案：如果上面那个没生效，试试下面这个 */
+.form-row.mb-4 {
+  display: none !important;
+}
+
+
+/* --- 修改首页内容宽度 --- */
+
+/* 仅在电脑大屏幕上生效 (宽度大于 1200px 的设备) */
+@media (min-width: 1200px) {
+  /* 修改所有首页板块的容器宽度 */
+  .home-section .container {
+    /* 默认通常是 1140px 左右，数值越小，两边留白越大 */
+    max-width: 1000px !important;
+  }
+}
+
+/* 如果觉得 Hero (大图横幅) 太窄了想宽一点，可以单独把下面这段加上 */
+/* @media (min-width: 1200px) {
+  #hero .container {
+    max-width: 1100px !important;
+  }
+}
+*/
+/* 强制隐藏 "Published with Hugo Blox Builder" */
+//.powered-by a[href*="hugoblox"] {
+//  display: none !important;
+//}
+
+
