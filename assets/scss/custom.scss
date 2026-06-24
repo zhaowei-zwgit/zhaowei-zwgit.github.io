@@ -9,20 +9,40 @@
 }
 
 
-/* --- 联系页图标间距统一 --- */
+/* --- 联系页图标基础样式 --- */
 .wg-contact .fa-ul {
   list-style: none;
   padding-left: 0;
 }
 
 .wg-contact li {
-  padding-top: 0.6rem !important;
-  margin-bottom: 0.6rem !important;
   line-height: 1.8;
 }
 
-.wg-contact li:last-of-type {
-  margin-bottom: 0 !important;
+/* --- 联系页单个图标独立调整 --- */
+
+/* 第1个图标：邮箱 */
+.wg-contact li:nth-child(1) {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+/* 第2个图标：地址 */
+.wg-contact li:nth-child(2) {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+/* 第3个图标：GitHub */
+.wg-contact li:nth-child(3) {
+  padding-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* 第4个图标：Google Scholar */
+.wg-contact li:nth-child(4) {
+  padding-top: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 /* --- 修改首页内容宽度 --- */
