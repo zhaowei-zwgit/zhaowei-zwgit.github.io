@@ -20,8 +20,8 @@ sections:
         country: 中国
         country_code: CN
       coordinates:
-        latitude: '23.1291'
-        longitude: '113.2644'
+        latitude: ''
+        longitude: ''
       directions: ''
       office_hours: []
       appointment_url: ''
